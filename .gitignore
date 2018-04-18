@@ -4,3 +4,6 @@
 #jekyll
 feed.xml
 _site/
+
+#file_system
+.DS_Store
