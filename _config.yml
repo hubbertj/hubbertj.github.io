@@ -17,14 +17,11 @@ title: Jerum Hubbert
 author: hubbertj
 email: hubbertj@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Who is Jerum Hubbert, this site tells the world about me, what I am into and 
-  whats currently going on. My site also provides a insight in my theories about business,
-   technology, and The world. I share my thoughts freely so feel free to quote me if needed.  
+ A man who inspires to be the best he can!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  hubbertj
-
 # Build settings
 markdown: kramdown
 theme: minima
