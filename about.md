@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About
+extraTitle: Who I Be
 permalink: /about/
 ---
-[comment]:{{ site.title }}
+
 I consider myself many things:
 * First most a `Father`
 * Learner

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+extraTitle: My Passions
 permalink: /projects/
 ---
 
