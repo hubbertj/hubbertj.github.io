@@ -17,7 +17,7 @@ title: Jerum Hubbert
 author: hubbertj
 email: hubbertj@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- A man who inspires to be the best he can!
+ A man who aspires to be the best he can!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -27,15 +27,26 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+future: true
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+
+# Include .well-known directory for Chrome DevTools and other services
+include:
+  - .well-known
+  - .well-known/**
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
