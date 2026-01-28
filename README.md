@@ -32,6 +32,19 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hubbertj/hubbertj.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+### Run locally
+
+From the repo root:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then open `http://127.0.0.1:4000`.
+
+If you run into Ruby/Bundler issues, make sure you’re using a Ruby 3.x-compatible setup (this repo uses Jekyll 3.9+) and restart the server after changing `_config.yml`.
+
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
