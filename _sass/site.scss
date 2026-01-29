@@ -607,6 +607,46 @@ body .page-content .wrapper > div {
 }
 
 @media (max-width: 768px) {
+  /* Mobile hamburger menu dropdown */
+  .site-header .site-nav {
+    position: relative;
+  }
+
+  .site-nav .trigger {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    min-width: 180px;
+    padding: 0.5rem 0;
+    background: rgba(15, 23, 42, 0.98);
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    border-radius: 0.75rem;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+  }
+
+  .site-nav .trigger .page-link {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    color: #e5e7eb;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+    font-size: 1rem;
+  }
+
+  .site-nav .trigger .page-link:last-child {
+    border-bottom: none;
+  }
+
+  .site-nav .trigger .page-link:hover {
+    background: rgba(56, 189, 248, 0.12);
+    color: #7dd3fc;
+  }
+
+  .site-nav .trigger .page-link::after {
+    display: none;
+  }
+
   .home-hero {
     grid-template-columns: minmax(0, 1fr);
     padding: 1.75rem 1.5rem;
